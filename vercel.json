@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "functions": {
+    "src/app/api/**": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_BASE_URL": "https://your-app-name.vercel.app"
+  },
+  "rewrites": [
+    {
+      "source": "/uploads/(.*)",
+      "destination": "/api/uploads/$1"
+    }
+  ]
+}

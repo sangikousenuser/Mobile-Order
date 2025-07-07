@@ -1,0 +1,487 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Admin User",
+      "email": "admin@restaurant.com",
+      "password": "$2b$10$bR7XGbVhMaki.HMp9ssub.6OvL0TudiOqtVqKmTehc7NJ3K2G9ohq",
+      "role": "admin",
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-329c5b6b-be96-4a0a-9b73-1b5cc6588079",
+      "number": 1,
+      "capacity": 4,
+      "status": "available",
+      "qrCode": "QR_TABLE_1"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+      "name": "cううう",
+      "description": "aa",
+      "price": 860,
+      "category": "メイン",
+      "image": "/uploads/menu/1750860357545_food_curry_mukashi_yellow.png",
+      "available": true
+    },
+    {
+      "id": "menu-1",
+      "name": "ハンバーガー",
+      "description": "ジューシーなビーフパティとフレッシュな野菜",
+      "price": 1200,
+      "category": "メイン",
+      "image": "/uploads/menu/1750860822512_food_byanbyanmen.png",
+      "available": false
+    },
+    {
+      "id": "menu-2",
+      "name": "フライドポテト",
+      "description": "カリカリに揚げたポテト",
+      "price": 500,
+      "category": "サイド",
+      "image": "/uploads/menu/1750860831211_food_nikusui.png",
+      "available": false
+    },
+    {
+      "id": "menu-3",
+      "name": "コーラ",
+      "description": "冷たい炭酸飲料",
+      "price": 300,
+      "category": "ドリンク",
+      "image": "/uploads/menu/1750860837362_food_pork_chup.png",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "5908c2f7-4eee-4b8d-b667-fb64ae5def3d",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "6e5e6e43-2ad9-4a88-bc66-7ea5f09037f9",
+          "menuItemId": "menu-1",
+          "quantity": 2,
+          "price": 1200,
+          "notes": ""
+        },
+        {
+          "id": "4832084b-6dc3-4c47-a79f-cd34baaca45a",
+          "menuItemId": "menu-2",
+          "quantity": 2,
+          "price": 1400,
+          "notes": ""
+        },
+        {
+          "id": "75b777be-7b38-4c2f-85cd-e26fa1132ad2",
+          "menuItemId": "menu-3",
+          "quantity": 1,
+          "price": 600,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 5800,
+      "status": "completed",
+      "createdAt": "2025-06-25T12:26:13.376Z",
+      "updatedAt": "2025-06-25T14:23:53.448Z",
+      "customerName": "匿名",
+      "notes": ""
+    },
+    {
+      "id": "b21078e3-e705-4504-be2a-1f29b3aa7ded",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "c2915512-6abd-4622-afa1-1136a5e8ff83",
+          "menuItemId": "menu-1",
+          "quantity": 1,
+          "price": 1200,
+          "notes": ""
+        },
+        {
+          "id": "112699f5-3f71-4558-a467-b2abc747b4f0",
+          "menuItemId": "menu-2",
+          "quantity": 1,
+          "price": 1400,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 2600,
+      "status": "completed",
+      "createdAt": "2025-06-25T12:37:55.891Z",
+      "updatedAt": "2025-06-25T14:23:52.613Z",
+      "customerName": "匿名",
+      "notes": ""
+    },
+    {
+      "id": "5c90986f-3b31-402e-a6db-f04c21aeee9e",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "010d767c-f23b-408c-8c3e-bf4e6a976cb2",
+          "menuItemId": "menu-2",
+          "quantity": 1,
+          "price": 1400,
+          "notes": ""
+        },
+        {
+          "id": "fd33ab33-998b-4720-81ab-e17984a4f775",
+          "menuItemId": "menu-5",
+          "quantity": 1,
+          "price": 350,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 1750,
+      "status": "cancelled",
+      "createdAt": "2025-06-25T13:53:28.979Z",
+      "updatedAt": "2025-06-25T13:59:14.957Z",
+      "customerName": "匿名",
+      "notes": ""
+    },
+    {
+      "id": "0bd430f0-98c9-441f-a191-9dc795571f5d",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "db597772-7319-4ac1-b381-4d8b1f6f90f1",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 1,
+          "price": 860,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 860,
+      "status": "completed",
+      "createdAt": "2025-06-25T14:06:44.823Z",
+      "updatedAt": "2025-06-25T14:24:00.038Z",
+      "customerName": "匿名",
+      "notes": ""
+    },
+    {
+      "id": "f0f58373-4ab8-459a-9a70-9d437a66e597",
+      "tableId": "table-329c5b6b-be96-4a0a-9b73-1b5cc6588079",
+      "items": [
+        {
+          "id": "5eaf63fa-56ea-4101-b320-3740b933e242",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 2,
+          "price": 860,
+          "notes": ""
+        },
+        {
+          "id": "5e16b4b3-8451-4b74-820a-40312074af3d",
+          "menuItemId": "menu-1",
+          "quantity": 1,
+          "price": 1200,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 2920,
+      "status": "completed",
+      "createdAt": "2025-06-25T14:16:03.985Z",
+      "updatedAt": "2025-06-25T14:16:30.348Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "table-329c5b6b-be96-4a0a-9b73-1b5cc6588079-1750860940404-99a23a7b"
+    },
+    {
+      "id": "cb14702b-8a55-4bf5-9014-960f4665971d",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "ac77b43f-9514-45b1-b89a-30e744f04f89",
+          "menuItemId": "menu-1",
+          "quantity": 1,
+          "price": 1200,
+          "notes": ""
+        },
+        {
+          "id": "86c3214a-51db-41f9-b10f-4537273da5ad",
+          "menuItemId": "menu-3",
+          "quantity": 1,
+          "price": 300,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 1500,
+      "status": "completed",
+      "createdAt": "2025-06-25T14:22:13.075Z",
+      "updatedAt": "2025-06-26T14:39:26.490Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "table-1-1750861327340-e28eaeda",
+      "barcode": "ORDER_cb14702b-8a55-4bf5-9014-960f4665971d_1750861337498",
+      "barcodeGeneratedAt": "2025-06-25T14:22:17.498Z"
+    },
+    {
+      "id": "a20fa061-301f-4402-afc4-107214b318a6",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "c3de1c9f-19c1-443b-9cee-7272ac927017",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 1,
+          "price": 860,
+          "notes": ""
+        },
+        {
+          "id": "db54139d-3504-461e-b4ed-51061ac6dd28",
+          "menuItemId": "menu-1",
+          "quantity": 1,
+          "price": 1200,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 2060,
+      "status": "completed",
+      "createdAt": "2025-06-25T14:24:15.289Z",
+      "updatedAt": "2025-06-26T14:39:26.841Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "table-1-1750861327340-e28eaeda"
+    },
+    {
+      "id": "47614a3f-63b7-4b61-aeb7-32b432c17017",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "424e6570-1364-49b1-947d-de383cd5eeb5",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 1,
+          "price": 860,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 860,
+      "status": "completed",
+      "createdAt": "2025-06-25T14:33:03.110Z",
+      "updatedAt": "2025-06-26T14:39:29.753Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750861969808-aba406d0"
+    },
+    {
+      "id": "292de22d-5880-465f-b628-aa27a32a849a",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "595be0ad-8ded-4c13-80bc-73e722d6bf53",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 1,
+          "price": 860,
+          "notes": ""
+        },
+        {
+          "id": "ceb94f1d-6d1e-47fa-8653-c9b8a8519ce6",
+          "menuItemId": "menu-1",
+          "quantity": 1,
+          "price": 1200,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 2060,
+      "status": "completed",
+      "createdAt": "2025-06-25T14:37:28.028Z",
+      "updatedAt": "2025-06-26T14:39:28.997Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750862216047-c8a66fca"
+    },
+    {
+      "id": "4f0694e6-de22-40aa-9574-44a8927a7d04",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "8d69237a-7635-4ed4-9871-9a8aa37076b0",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 1,
+          "price": 860,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 860,
+      "status": "pending",
+      "createdAt": "2025-06-26T14:40:18.584Z",
+      "updatedAt": "2025-06-26T14:40:18.584Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750948758271-223ecd17"
+    },
+    {
+      "id": "b45926c5-8b61-479d-9222-592e0430520e",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "9a2e7366-1a51-44f2-b551-43c8bc1f5775",
+          "menuItemId": "menu-1",
+          "quantity": 1,
+          "price": 1200,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 1200,
+      "status": "pending",
+      "createdAt": "2025-06-26T14:41:14.301Z",
+      "updatedAt": "2025-06-26T14:41:14.301Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750948758271-223ecd17"
+    },
+    {
+      "id": "c1e6d5df-5ca1-43c7-bb99-1e1031a467d4",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "ae0e3c59-4e11-431f-b2dd-f46519bacf53",
+          "menuItemId": "menu-3",
+          "quantity": 10,
+          "price": 300,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 3000,
+      "status": "pending",
+      "createdAt": "2025-06-26T14:41:36.644Z",
+      "updatedAt": "2025-06-26T14:41:36.644Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750948758271-223ecd17"
+    },
+    {
+      "id": "803161e9-d623-4a67-bbd3-8b1ea8203068",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "2b62f653-e5aa-4837-958d-6002d9b8667a",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 3,
+          "price": 860,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 2580,
+      "status": "pending",
+      "createdAt": "2025-06-26T14:42:15.790Z",
+      "updatedAt": "2025-06-26T14:42:15.790Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750948758271-223ecd17"
+    },
+    {
+      "id": "f2e0bb29-6d40-4b80-ad6e-7495baf7b612",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "4dc48dbb-d95e-4a80-a568-846252bee080",
+          "menuItemId": "menu-3",
+          "quantity": 1,
+          "price": 300,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 300,
+      "status": "pending",
+      "createdAt": "2025-06-27T03:18:15.906Z",
+      "updatedAt": "2025-06-27T03:18:15.906Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750948758271-223ecd17"
+    },
+    {
+      "id": "1d6e7191-3fce-44d0-aa88-330006c78e32",
+      "tableId": "table-1",
+      "items": [
+        {
+          "id": "3a2a602d-b6cd-44d4-bf2b-aa16a74e4b5d",
+          "menuItemId": "6a3cbfce-80ea-44f2-8d16-b0a6e9628a8d",
+          "quantity": 1,
+          "price": 860,
+          "notes": ""
+        }
+      ],
+      "totalAmount": 860,
+      "status": "pending",
+      "createdAt": "2025-06-27T03:19:10.849Z",
+      "updatedAt": "2025-06-27T03:19:10.849Z",
+      "customerName": "匿名",
+      "notes": "",
+      "sessionId": "session-1750994339333-beadaa28"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "メイン",
+      "displayOrder": 1,
+      "active": true
+    },
+    {
+      "id": "cat-2",
+      "name": "サイド",
+      "displayOrder": 2,
+      "active": true
+    },
+    {
+      "id": "cat-3",
+      "name": "ドリンク",
+      "displayOrder": 3,
+      "active": true
+    },
+    {
+      "id": "cat-4",
+      "name": "デザート",
+      "displayOrder": 4,
+      "active": true
+    }
+  ],
+  "staffCalls": [
+    {
+      "id": "call-1750856905017-rgrm2whio",
+      "tableId": "table-1",
+      "type": "assistance",
+      "message": "",
+      "status": "resolved",
+      "createdAt": "2025-06-25T13:08:25.017Z",
+      "resolvedAt": "2025-06-25T13:08:33.026Z"
+    },
+    {
+      "id": "call-1750859641909-wagc7roqt",
+      "tableId": "table-1",
+      "type": "assistance",
+      "message": "",
+      "status": "resolved",
+      "createdAt": "2025-06-25T13:54:01.909Z",
+      "resolvedAt": "2025-06-25T13:54:12.806Z"
+    },
+    {
+      "id": "call-1750861039536-b1wt11g4p",
+      "tableId": "table-329c5b6b-be96-4a0a-9b73-1b5cc6588079",
+      "type": "assistance",
+      "message": "",
+      "status": "resolved",
+      "createdAt": "2025-06-25T14:17:19.536Z",
+      "resolvedAt": "2025-06-25T14:17:33.686Z"
+    },
+    {
+      "id": "call-1750948953256-6dspwx5x1",
+      "tableId": "table-1",
+      "type": "other",
+      "message": "料理がまずい",
+      "status": "resolved",
+      "createdAt": "2025-06-26T14:42:33.256Z",
+      "resolvedAt": "2025-06-27T03:17:45.659Z"
+    },
+    {
+      "id": "call-1750994362736-l3e1e8mmx",
+      "tableId": "table-1",
+      "type": "assistance",
+      "message": "",
+      "status": "pending",
+      "createdAt": "2025-06-27T03:19:22.736Z"
+    }
+  ]
+}
